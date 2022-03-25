@@ -51,4 +51,15 @@
 
 .clr {
     clear:both;
+    
+}
+aside{
+    padding: 142px 80px;
+    width:444px;
+    height: 600px;
+}
+
+aside img {
+    width:303px;
+    height: 410px;
 }
