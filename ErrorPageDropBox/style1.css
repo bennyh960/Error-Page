@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 600px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.figure{
+    margin: 40px 0 0;
+    /* border: 1px solid red; */
+    /* position:relative; */
+    /* box-sizing: inherit; */
+    /* margin-top: 40px; */
+    
+
+}
+
+.figure img{
+    width: 300px;
+    height: 300px;
+}
+
+#errorbox {
+    /* border: 2px solid black; */
+    line-height: 1.6em;
+    margin: 0 auto;
+    max-width: 560px;
+    /* max-height: 341; */
+    height: 341;
+    padding: 0 20px;
+    text-align: left;
+    word-wrap: break-word;
+    box-sizing: inherit;
+    font-weight: lighter;
+
+}
+
+#errorbox .not-found{
+    /* border: 2px solid black; */
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 21px;
+    font-weight: lighter;
+    line-height: 60px;
+    text-align: center;
+}
+
+#errorbox .not-found h1{
+    font-size: 38px;
+    line-height: 47px;
+    font-weight: lighter;
+}
+                        
+#errorbox .not-found .not-found--links{
+    margin: 48px 0;
+    font-size: 14px;
+    font-weight:bolder;
+    line-height: 20px;
+}
+
+#errorbox .not-found .not-found--links ul{
+    font-weight:600;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#errorbox .not-found .not-found--links ul li{
+    margin-top: 10px;
+}
+
+#errorbox a{
+    color: #005ff8;
+    text-decoration: none;
+    
+}
+#errorbox a:hover{
+    color: #005ff8;
+    text-decoration:underline;   
+}
