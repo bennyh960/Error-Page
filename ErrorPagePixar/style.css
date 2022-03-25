@@ -1,4 +1,54 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+   /* width:100%; */
+   padding: 33px 118px;
+   color: #1d1d1db3; 
+
+}
+
+.header .header-brand-logo{
+    /* border: 2px black solid; */
+    margin:20px;
+    width: fit-content;
+    float: left;
+}
+
+@font-face {
+    font-family: 'brandon-grotesque';
+    src:  url('/ErrorPagePixar/barndon-fonts/brandon-grotesque-light-58a8a4b38001d.otf');
+  }
+
+.header .header-top-right nav{
+    font-family: 'brandon-grotesque';
+    /* border: 1px black solid; */
+    width: 400;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    text-align: right;
+    float: right;
+}
+
+.header .header-top-right nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 0.93em;
+    padding: 0.618em 0;
+    line-height: 2.5em;
+}
+
+.header .header-top-right nav a:hover{
+    color: rgba(200, 200, 200, 10);
+    
+}
+
+.clr {
+    clear:both;
 }
