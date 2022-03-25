@@ -22,6 +22,10 @@
     font-family: 'brandon-grotesque';
     src:  url('/ErrorPagePixar/barndon-fonts/brandon-grotesque-light-58a8a4b38001d.otf');
   }
+@font-face {
+    font-family: 'brandon-grotesque-stronger';
+    src:  url('/ErrorPagePixar/barndon-fonts/Brandon_blk.otf');
+  }
 
 .header .header-top-right nav{
     font-family: 'brandon-grotesque';
@@ -53,13 +57,36 @@
     clear:both;
     
 }
-aside{
-    padding: 142px 80px;
-    width:444px;
-    height: 600px;
+main{
+    padding: 80px 142px;
+    width:auto;
+    height: 665px;
 }
 
-aside img {
+main img {
     width:303px;
     height: 410px;
+    float: left;
+}
+.empty-box {
+    border: 2px black solid;
+    width: 1100px;
+    height: 150px;
+    /* float:inherit; */
+}
+main .block-content{
+    text-align: center;
+    font-family: 'brandon-grotesque-stronger';
+    line-height: 4.7em;
+}
+
+main .block-content h1{
+    /* font-weight: 400; */
+    height: 200px;
+    font-size: 51px;
+    color: #1d1d1d;
+    white-space:pre-wrap;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.29em;
 }
