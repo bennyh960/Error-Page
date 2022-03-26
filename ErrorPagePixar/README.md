@@ -1,4 +1,4 @@
-#Error page - Drop Box
+#Error page - Pixar
 
 **Version 1.0.0**
 
